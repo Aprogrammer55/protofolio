@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+header {
+    text-decoration: none;
+    position: fixed;
+    display: flex;
+    background-color: #f0f0f0;
+    width: 100%;
+    z-index: 999;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation {
+    padding-right: 400px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
